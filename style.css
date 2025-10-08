@@ -79,8 +79,8 @@ body {
   align-items: center;
 }
 .hero .row1 .col2 {
-  height: 350px;
-  width: 520px;
+  height: 440px;
+  width: 610px;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -237,19 +237,7 @@ body {
   gap: 25px;
 }
 .card:hover .bottom {
-  bottom: -40%;
-}
-.card-cover {
-  background-color: crimson;
-  height: 200px;
-  position: relative;
-}
-.card-cover .btm {
-  position: absolute;
   bottom: 0;
-}
-.btm img{
-  height: 20px;
 }
 .save {
   display: flex;
@@ -285,4 +273,20 @@ body {
   border: none;
   border-radius: 25px;
   font-weight: 600;
+}
+.Footernav {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  align-items: center;
+  padding: 10px 30px 30px 30px;
+  font-weight: 600;
+}
+.Footernav .first .logoIcon {
+  width: 100px;
+  height: auto;
+}
+.Footernav .center {
+  display: flex;
+  gap: 35px;
 }
